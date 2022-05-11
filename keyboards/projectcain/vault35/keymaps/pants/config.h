@@ -21,11 +21,20 @@
 #define ENCODER_RESOLUTION 2
 #define COMBO_COUNT 9
 #define COMBO_TERM 50
-#define TAPPING_FORCE_HOLD
+
+// Prevent normal rollover on alphas from accidentally triggering mods
+#define IGNORE_MOD_TAP_INTERRUPT
+// Apply the modifier on keys that are tapped during a short hold of a modtap
+#define PERMISSIVE_HOLD
+// configure the global tapping term (default 200)
+#define TAPPING_TERM 175
+// enable rapid switch from tap to hold, disables double tap hold auto-repeat
+// #define TAPPING_FORCE_HOLD
+
 /* WS2812 RGB LEDs */
 #ifdef RGBLIGHT_ENABLE
   #define RGB_DI_PIN D0
-  #define RGBLED_NUM 13   // Number of LEDs
+  #define RGBLED_NUM 7   // Number of LEDs
 
   #define RGBLIGHT_ANIMATIONS
 #endif
