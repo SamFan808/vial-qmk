@@ -21,3 +21,4 @@
 [submodule "lib/ugfx"]
 	path=lib/ugfx
 	url=https://github.com/qmk/ugfx
+	branch = master
