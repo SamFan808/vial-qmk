@@ -18,7 +18,13 @@
 [submodule "lib/printf"]
 	path = lib/printf
 	url = https://github.com/qmk/printf
+<<<<<<< HEAD
 [submodule "lib/ugfx"]
 	path=lib/ugfx
 	url=https://github.com/qmk/ugfx
 	branch = master
+=======
+[submodule "lib/pico-sdk"]
+	path = lib/pico-sdk
+	url = https://github.com/qmk/pico-sdk.git
+>>>>>>> c1af16563e15e68683e142b0991de92feb043e55
