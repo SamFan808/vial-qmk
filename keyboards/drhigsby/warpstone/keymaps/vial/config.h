@@ -4,6 +4,6 @@
 #define VIAL_UNLOCK_COMBO_ROWS { 0, 0  }
 //define key combo based on available layout
 #define VIAL_UNLOCK_COMBO_COLS { 0, 9 }
-#define DYNAMIC_KEYMAP_LAYER_COUNT 4
+// #define DYNAMIC_KEYMAP_LAYER_COUNT 4
 // #define VIAL_TAP_DANCE_ENTRIES 4
-#define VIAL_COMBO_ENTRIES 20
+#define VIAL_COMBO_ENTRIES 10

@@ -1,0 +1,2 @@
+COMBO_ENABLE = no
+LEADER_ENABLE = no
